@@ -36,7 +36,7 @@ public class DebitCardTest {
         driver = null;
     }
 
-    @Test //Задача №1. Позитивная проверка
+    @Test
     public void shouldSendForm() {
         driver.get("http://localhost:9999/");
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Никифоров Иван");
